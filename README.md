@@ -10,12 +10,11 @@ Columns:
 
 
 
--text: The actual tweet
--airline: Name of the airline tweeted about
--latitude, longitude: Location of the tweet
--airline_sentiment_confidence : Confidence of the sentiment classification of the tweet
--airline_sentiment: Sentiment of the tweet
-
+- text: The actual tweet
+- airline: Name of the airline tweeted about
+- latitude, longitude: Location of the tweet
+- airline_sentiment_confidence : Confidence of the sentiment classification of the tweet
+- airline_sentiment: Sentiment of the tweet
 
 
 
@@ -23,9 +22,9 @@ Composition of the sentiments of the tweet:
 
 
 
--negative    9178
--neutral     3099
--positive    2363
+- negative    9178
+- neutral     3099
+- positive    2363
 
 
 [Dataset]: https://www.kaggle.com/crowdflower/twitter-airline-sentiment
