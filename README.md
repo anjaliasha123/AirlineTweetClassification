@@ -27,6 +27,8 @@ Composition of the sentiments of the tweet:
 - positive    2363
 
 # Data Insights
+[Insights]
 
 
 [Dataset]: https://www.kaggle.com/crowdflower/twitter-airline-sentiment
+[Insights]: https://github.com/anjaliasha123/AirlineTweetClassification/blob/main/src/DataInsights.ipynb
