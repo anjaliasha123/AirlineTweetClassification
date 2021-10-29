@@ -26,6 +26,14 @@ Composition of the sentiments of the tweet:
 - neutral     3099
 - positive    2363
 
+# Model
+
+- Embedding layer:
+The words given as input in the input layer needs to be converted into a vector representation. The words are mapped to a corresponding real value vector that contains the syntatic and semantic meaning of the words. Pre-trained GloVe was used for creating the matrix.
+
+- Bidirectional Recurrent Layer:
+RNN maintains the sequential information of the input. The variable length sequences are mapped to fixed length vectors by truncating the sequences. For the purpose of this project LSTM was used because it can avoid vanishing gradient problem. LSTM can control the flow of information using gates that decide to remove, add or keep information.
+
 # Data Insights
 [Insights]
 
