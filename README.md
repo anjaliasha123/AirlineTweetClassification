@@ -50,7 +50,6 @@ The output of the Bi-LSTM layer will have both the future and past context. This
 - streamlitApp.ipynb : file containes the streamlit code for creating and running the trained model.
 - bilstmCNNTweet.h5 : file containing the trained model that is saved.
 
-# Results:
 
 
 
