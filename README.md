@@ -12,7 +12,7 @@ The model used is a hybrid deep learning model. It is a stacked architecture of 
 
 # Dataset
 The data set used is from Kaggle- [Dataset]<br>
-
+Data Insights - [Insights]
 Columns:
 
 
