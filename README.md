@@ -44,8 +44,14 @@ RNN maintains the sequential information of the input. The variable length seque
 - Convolutional Neural Networks:
 The output of the Bi-LSTM layer will have both the future and past context. This output can be further polished by using a CNN layer, that extracts the main features. It has two stages: a convolution operation using filters that generate feature maps and max-pooling layer to extract the maximum value.
 
-# Data Insights
-[Insights]
+# Files:
+- DataInsights.ipynb : file containing code for intial data analytics of the dataset.
+- BiLSTMCNNModel.ipynb : file containing code for tweet pre-prcessing, model creation, training, evaluation and testing.
+- streamlitApp.ipynb : file containes the streamlit code for creating and running the trained model.
+- bilstmCNNTweet.h5 : file containing the trained model that is saved.
+
+# Results:
+
 
 
 [Dataset]: https://www.kaggle.com/crowdflower/twitter-airline-sentiment
