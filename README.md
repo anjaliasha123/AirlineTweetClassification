@@ -1,7 +1,14 @@
 # AirlineTweetClassification
 
-# Introduction
-This project is used to classify tweets from various users tweeted on their experience with US airlines - US Airways, United, American, Southwest, Delta, and Virgin America. Various sentiments of the tweets weere classified into Positive, Negative and Neutral. The classification of these tweets were done using deep learning models _'Bidirectional LSTM (Long-Short Term Memory) & CNN (Convolutional Neural Networks)'_ . The main aim of this project was to understand the deep learning model using a toy dataset and how it can be used for sentiment analysis or topic classification applications.
+# Overview
+This project is a streamlit webapp that classifies tweets from various users about their experience with US airlines - US Airways, United, American, Southwest, Delta, and Virgin America. The tweets are classified as ‘positive’, ‘negative’ and ‘neutral’. The main aim of this project was to understand the deep learning model using a toy dataset and how it can be used for sentiment analysis or topic classification applications. The streamlit application takes random tweets at real time and predict its sentiment.
+<br>
+About the data: <br>
+The data used for this project is from Kaggle repository. The original data is modified for the purpose of usage for this project.
+<br>
+About the model: <br>
+The model used is a hybrid deep learning model. It is a stacked architecture of recurrent neural networks, and convolutional neural network .
+
 
 # Dataset
 The data set used is from Kaggle- [Dataset]<br>
